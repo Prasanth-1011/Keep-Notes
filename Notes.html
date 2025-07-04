@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Notes.css">
+    </head>
+
+    <body>
+        <div class="Navbar">
+            Notes
+        </div>
+        <div class="Notes">
+            <div class="Container">
+                <p class="Title">Title</p>
+                <div class="Contents">
+                    Lionel Messi
+                </div>
+                <div class="Button">
+                    <button class="Edit" onclick="Edit()">Edit</button>
+                    <button class="Delete" onclick="Remove()">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="Add">
+            <button class="Add-Button">Add</button>
+        </div>
+
+        <div class="Popup">
+            <div class="Popup-Container">
+                <div class="Popup-Title">Add Notes</div>
+                <div class="Inputs">
+                    <input class="Popup-Contents" type="text" placeholder="Enter Title">
+                </div>
+                <div class="Inputs">
+                    <input class="Popup-Contents Textarea" type="textarea" placeholder="Enter Contents">
+                </div>
+                <div class="Popup-Add">
+                    <button class="Popup-Add Popup-Added">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="Edit-Popup">
+            <div class="Edit-Popup-Container">
+                <div class="Edit-Popup-Title">Edit Note</div>
+                <div class="Edit-Inputs">
+                    <input class="Edit-Popup-Contents" type="text" placeholder="Enter Title">
+                </div>
+                <div class="Edit-Inputs">
+                    <input class="Edit-Popup-Contents Textarea" type="textarea" placeholder="Enter Contents">
+                </div>
+                <div class="Edit-Popup-Add">
+                    <button class="Edit-Popup-Add Edit-Popup-Added">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="Notes.js"></script>
+
+    </body>
+</html>
